@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
 *{
     margin: 0;
 
@@ -163,4 +166,21 @@ button:hover{
 
     }
 
+}
+
+.score{
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+
+    margin: 20px;
+    
+    padding-left: 30px;
+
+    font-size: 2rem;
+    font-family: Amatic SC;
+    
+
+    z-index: 1000;
 }
