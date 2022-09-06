@@ -74,6 +74,14 @@ body{
         bottom: 180px;
     }
 
+    70% {
+        bottom: 180px;
+    }
+
+    80% {
+        bottom: 180px;
+    }
+
     100% {
         bottom: 0;
     }
@@ -123,4 +131,36 @@ button:hover{
     background-color: rgb(255, 184, 51);
 
     cursor: pointer;
+}
+
+/*@media*/
+
+@media (max-width: 676px){
+
+    .pipe{
+
+        animation: pipe-animation 1.2s infinite linear;
+
+    }
+
+}
+
+@media (max-width: 417px){
+
+    .pipe{
+
+        animation: pipe-animation 1.0s infinite linear;
+
+    }
+
+}
+
+@media (max-width: 437px){
+   
+    .pipe{
+
+        animation: pipe-animation 1s infinite linear;
+
+    }
+
 }
